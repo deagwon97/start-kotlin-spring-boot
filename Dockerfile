@@ -10,6 +10,8 @@ RUN apt update -y &&\
 RUN bash -c "source $HOME/.sdkman/bin/sdkman-init.sh && \
     yes | sdk install kotlin"
 
+RUN bash -c "git config --global --add safe.directory /root/workdir"
+
 RUN gradle build
 
 FROM openjdk:11
