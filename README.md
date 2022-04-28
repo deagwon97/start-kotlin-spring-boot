@@ -1,4 +1,6 @@
 # Start Spring boot project with kotlin
+If you configure the development space with vscode's devcontainer, you minimize the difference in environment between development and deployment.
+And it makes it easy to share your environment with your team mates. Therfore, I have organized the code so that you can start a web project with a combination of spring boot, kotlin, and gradle on vscode's devcontainer.
 
 ## Prerequisites
 - Docker 20.10.12
@@ -8,8 +10,8 @@
   - Docker Extension(ms-azuretools.vscode-docker)
 
 ## Docker images version
-gradle:7-jdk11
-openjdk:11
+- gradle:7-jdk11
+- openjdk:11
 
 ## Start
 
@@ -42,9 +44,9 @@ If you want to run grandlew on CLI, to type this.
 # ./grandlew bootRun
 ```
 
-Or If you want to use gradle debugger, do this.
+Or, if you want to use gradle extention debugger, do this.
 1. click GADLE plugin on left side bar.
-2. click Tasks > application bootRun
+2. click Tasks > application > bootRun
 
 but, you have to do run console `./grandlew bootRun` first once.
 
