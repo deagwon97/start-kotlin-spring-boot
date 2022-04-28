@@ -23,7 +23,7 @@ And it makes it easy to share your environment with your team mates. Therfore, I
 
 ### 2. download spring boot codes from https://start.spring.io/
 1. Choose Like this and download zip file
-    - Grandle Project
+    - Gradle
     - Kotlin
     - Spring Boot 2.6.7
     - Packaging Jar
@@ -37,18 +37,18 @@ And it makes it easy to share your environment with your team mates. Therfore, I
 
 ### 3. Development
 
-If you want to run grandlew on CLI, to type this.
+If you want to run gradlew on CLI, to type this.
 
 ```console
 # cd ~/workdir/src/
-# ./grandlew bootRun
+# ./gradlew bootRun
 ```
 
 Or, if you want to use gradle extention debugger, do this.
 1. click GADLE plugin on left side bar.
 2. click Tasks > application > bootRun
 
-but, you have to do run console `./grandlew bootRun` first once.
+but, you have to do run console `./gradlew bootRun` first once.
 
 
 ## Build
