@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  crud-spring:
+    build:
+      context: ../
+      dockerfile: ./Dockerfile
+      target: builder
+    volumes:
+      - ../:/root/workdir
+    entrypoint: 
+      - /bin/sh
+    tty: true
+    stdin_open: true
