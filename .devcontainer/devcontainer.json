@@ -15,8 +15,6 @@
 		"naco-siren.gradle-language",
 		"vscjava.vscode-gradle",
 		"KnisterPeter.vscode-github",
-		"georgewfraser.vscode-javac",
-		"donjayamanne.javadebugger",
 	],
 	"settings":{
 		"gradle.nestedProjects": true
